@@ -1,0 +1,281 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-12T03:59:28.288Z",
+    "end": "2022-10-12T04:00:36.043Z",
+    "duration": 21614,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8930749c-4cc4-4048-bad0-670584ae2769",
+      "title": "",
+      "fullFile": "cypress/integration/drag_drop.spec.cy.js",
+      "file": "cypress/integration/drag_drop.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "56b3b882-39b1-418c-9f29-ce28c1c51527",
+          "title": "DragandDropItem Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "drag and drop element",
+              "fullTitle": "DragandDropItem Test Case drag and drop element",
+              "timedOut": null,
+              "duration": 3057,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "dragAnddrop.titleVerify();\ndragAnddrop.validatingPageHeader();\ndragAnddrop.validatingText();\ndragAnddrop.clickingDragandDrop();\ndragAnddrop.ValidatingClicked();\ndragAnddrop.ClickingDragItem();\ndragAnddrop.clickDropItem();",
+              "err": {},
+              "uuid": "6648af93-5044-4d68-8889-eac5a4406566",
+              "parentUUID": "56b3b882-39b1-418c-9f29-ce28c1c51527",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6648af93-5044-4d68-8889-eac5a4406566"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3057,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "0fb4b4d3-6b39-47fc-8b9f-b89fa8edc74b",
+      "title": "",
+      "fullFile": "cypress/integration/dropdown.spec.cy.js",
+      "file": "cypress/integration/dropdown.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0866730e-62a4-47f6-a257-fbb0f15257c2",
+          "title": "Dropdown test case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should select an option from dropdown",
+              "fullTitle": "Dropdown test case should select an option from dropdown",
+              "timedOut": null,
+              "duration": 3171,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "dropdowntest.pagetitleverify();\ndropdowntest.visiblecheck();\ndropdowntest.validatingText();\ndropdowntest.clickingDropdown();\ndropdowntest.pageverify();\ndropdowntest.ClickingDropDownOption();\ndropdowntest.validatingOption();",
+              "err": {},
+              "uuid": "dcd4f521-bab9-4cab-98fc-e026cc3ed733",
+              "parentUUID": "0866730e-62a4-47f6-a257-fbb0f15257c2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dcd4f521-bab9-4cab-98fc-e026cc3ed733"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3171,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "b5bee1e9-59da-402c-8b1e-6a3eabf72980",
+      "title": "",
+      "fullFile": "cypress/integration/iframe.spec.cy.js",
+      "file": "cypress/integration/iframe.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0dc074dd-3902-4cb2-91fe-9a052e8a5407",
+          "title": "Iframe Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Iframe test Case",
+              "fullTitle": "Iframe Test Case Iframe test Case",
+              "timedOut": null,
+              "duration": 10131,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "iFramestest.Checklength();\niFramestest.ValidatePageHeader();\niFramestest.ClickingFrame();\niFramestest.ValidateFrameBtnClicked();\niFramestest.VisibleFrameBtn();\niFramestest.ClickingIframe();\niFramestest.ValidateIframeClicked();\niFramestest.ClickingFrameBody();\niFramestest.ClickingBold();\niFramestest.validatingBold();\niFramestest.ClickingItalic();\niFramestest.validatingItalic();\niFramestest.ClickingAllingment();\niFramestest.validatingAllignment();",
+              "err": {},
+              "uuid": "1422001a-4b57-43d9-be1d-4b2bb121f8c3",
+              "parentUUID": "0dc074dd-3902-4cb2-91fe-9a052e8a5407",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1422001a-4b57-43d9-be1d-4b2bb121f8c3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10131,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "ab34d559-15e5-430e-8bd5-d5946c6520a3",
+      "title": "",
+      "fullFile": "cypress/integration/contextmenu.spec.cy.js",
+      "file": "cypress/integration/contextmenu.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "31e53296-431d-4e9c-810e-ce64abe95485",
+          "title": "ContextMenu Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should open the contextmenu",
+              "fullTitle": "ContextMenu Test Case should open the contextmenu",
+              "timedOut": null,
+              "duration": 5255,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "contextmenutest.pagetitleverify();\ncontextmenutest.visiblecheck();\ncontextmenutest.validatingText();\ncontextmenutest.clickingContextMenu();\ncontextmenutest.pageverify();\ncontextmenutest.Clickingcontext_menu();",
+              "err": {},
+              "uuid": "9b1af9dd-579e-4f9f-972d-d203ae807a48",
+              "parentUUID": "31e53296-431d-4e9c-810e-ce64abe95485",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9b1af9dd-579e-4f9f-972d-d203ae807a48"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5255,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
